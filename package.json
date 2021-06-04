@@ -1,0 +1,30 @@
+{
+  "name": "webdriverio",
+  "version": "1.0.0",
+  "description": "Automation using wedriveriO",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "keywords": [
+    "Automation",
+    "Webdriver"
+  ],
+  "author": "Marzan Alam",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/register": "^7.13.14",
+    "@wdio/cli": "^7.3.0",
+    "@wdio/dot-reporter": "^7.3.0",
+    "@wdio/local-runner": "^7.3.0",
+    "@wdio/mocha-framework": "^7.3.0",
+    "@wdio/spec-reporter": "^7.3.0",
+    "@wdio/sync": "^7.7.3",
+    "chromedriver": "^91.0.0",
+    "prettier": "^2.2.1",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
